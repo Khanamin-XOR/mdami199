@@ -1,14 +1,14 @@
-### Running the FastAPI Application with Docker
+## Running the FastAPI Application with Docker
+### Step 1: Build Docker Image
 
-To run the FastAPI application using Docker, follow these steps:
+bash
+Copy code
+docker build -t my-fastapi-app -f myapp.txt .
+### Step 2: Run Docker Container
 
-#### Step 1: Build Docker Image
-
-```bash
-docker build -t my-fastapi-app -f myapp.txt
-
-**#### Step 2: Run Docker Container.**
+bash
+Copy code
 docker run -d -p 8000:80 my-fastapi-app
+Access the Application
 
-**#### Now, you can access your FastAPI application by visiting http://localhost:8000 in your web browser**.
-Make sure to replace `myapp.txt` with the actual name of your Dockerfile if it's different. This README section provides clear instructions on how to build and run your FastAPI application using Docker.
+Visit http://localhost:8000 in your web browser to access the FastAPI application.
