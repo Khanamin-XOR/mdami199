@@ -1,5 +1,18 @@
+## mdami199.ipynb
+This file has Exploratory data analysis, my approach to solving the given problems with findings and justifications.
+I have also explained that more could have been done with more time and resources.
+
+## main.py
+This file is FastAPI where I have defined the FastAPI instance, created endpoints, and implemented the business logic of your web application
+
+## File myapp.txt 
+represents the Dockerfile used to build a Docker image for a FastAPI application
+
+## requirements.txt
+dependencies required by the project
+
 ## Running the FastAPI Application with Docker
-### Step 1: Build Docker Image
+### Step 1: Build a Docker Image
 
 bash
 Copy code
